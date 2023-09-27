@@ -1,0 +1,37 @@
+appearancedata/uimodelsettingdata_g:7f71b9ee8a9e15a6daf9c11153f7340b:1.975586:1.975586
+arts/animationclips/merchant_female_g:9d185bc4a4ef48f9ebfbf668d396f972:175.2568:175.2568
+arts/animator_g:82142a7c428d4627df8c157438e240c3:176.9717:176.9717
+arts/avatar_g:41c66f559126d3bb8c8c63b73006bee0:2507.1:2507.1
+arts/editorres_g:33bbe4304183b7084367752f1c59d200:4.630859:4.630859
+arts/luts/amplifycolor/cine pack 1_g:e9f87d290fed21dbc6daadad46cd6e31:2454.95:2454.95
+arts/luts/amplifycolor/cine pack 2_g:1ec9352eea03be834b0024b529d32116:2724.5:2724.5
+arts/luts/amplifycolor/cine pack 3_g:a8fbff2e2807e380ec0b3d87669861f4:2842.673:2842.673
+arts/luts/amplifycolor/insta pack_g:bcd12a6a19665d47029cbc0e4c1c9f94:2296.725:2296.725
+arts/luts/amplifycolor/retro pack_g:51f1529b9654eb1bd680bff5516c330c:138.7578:138.7578
+arts/luts/scion/cine pack 1_g:86d80b763bc3e842f9dabed7dfecbcc8:329.3496:329.3496
+arts/luts/scion/cine pack 2_g:a2ae3e78aae69bb91189a553d6661887:351.8672:351.8672
+arts/luts/scion/cine pack 3_g:61be72035360ed36e2152cf95ca65cc5:362.5693:362.5693
+arts/luts/scion/insta pack_g:9c0e9cb528a51a1fb78c0c8ff4c822b6:298.8271:298.8271
+arts/luts/scion/retro pack_g:c8d5a14a9fe4afc16251c3f30383c6c7:46.07031:46.07031
+arts/luts/standard/cine pack 1_g:b30f2660a938d2cf8a31a5743f5ef48e:327.7979:327.7979
+arts/luts/standard/cine pack 2_g:397d7de1b15ca2f386005cd7b208f122:352.2861:352.2861
+arts/luts/standard/cine pack 3_g:f73aad43be8667ba3b2538c710c62347:362.8389:362.8389
+arts/luts/standard/insta pack_g:b7add50be77d6693a455fd7f07d8ed46:299.1338:299.1338
+arts/luts/standard/retro pack_g:a3259e11878f8303fddb46ac574169b5:46.7959:46.7959
+arts/luts_g:8f23a1efb15a969cef180e0e2330516a:12.13281:12.13281
+arts/ui/atlas/commonatlas1_g:8e09802372b7e38e8bfd296daa073524:23.7373:23.7373
+arts/ui/material_g:a2282fd7e42d533085abbe242be4ae3d:13.56641:13.56641
+arts/ui/prefabs/uguiroot:aef2f3ddcdea4ee27a53f73a9b3bb7f7:4.320313:4.320313
+arts/ui/prefabs/uicopying:cae1795fc01efd4a0107e9260daa0314:483.8418:483.8418
+arts/ui/prefabs/uidebugpanel:3d6d42d14846af2a0e64f2264827dd90:10.77734:10.77734
+arts/ui/prefabs/uiloading:85863faa5c6b6b2e6684b104f101554c:483.8516:483.8516
+arts/ui/prefabs/uiloginpanel:1b7c4c7c2de7586ea2d09ee727f12304:13.86816:13.86816
+arts/ui/prefabs/uimodelpanel:30f8656d4b25dc5dd5f3f364fbe00f83:41.25781:41.25781
+arts/ui/prefabs/uiworlddialog:74ee41656be43de4cf9f5fc54411fc11:9.4375:9.4375
+arts/ui/textures/head_icon_g:885935ae4110ce0b1ad194a04143e34c:31.86328:31.86328
+arts/ui/textures/loading_g:11e31670c01efcbc8d82ba6854a853ad:482.3477:482.3477
+audio_g:00bb85374ee3ae1dabd67999ad536564:1377.428:1377.428
+lua/lua_base:b36c6c1b5eeb0f1374f2da274596d50f:220.9951:220.9951
+manifest:398e8e91e655aac85eb89cffc268d68c:6.657227:6.657227
+scenes_g:6287e1b69712a8755ae09a57495a46a6:64.54688:64.54688
+sprotobytes_g:c79494828fba58f84e8cab96aee6b2da:1.379883:1.379883

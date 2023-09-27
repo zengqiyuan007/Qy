@@ -1,0 +1,16 @@
+
+{
+    "name" : "AppVersion",
+    "hideFlags" : 0,
+    "MainVersion" : 0,
+    "StoreVersion" : 0,
+    "HotUpdateVersion" : 1,
+    "BuildVersion"     : 0,
+    "Version"          : "0.0.1.0",
+    "MinVersion"       : "0.0.1.0",
+    "RecommandVersion" : "0.0.1.0",
+    "UpdateContent"    : "\u66F4\u65B0\u516C\u544A111111",
+    "Data"             : {
+        "url" : "http://xxxxxxxxx/android/0.0/0.0.1.0"
+    }
+}
