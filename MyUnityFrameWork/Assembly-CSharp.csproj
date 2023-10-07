@@ -1,0 +1,1711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8e68032f-b632-160f-aafa-ccfdb3370e58}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2020_3_48;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_CLOUD_FEATURES;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;USE_LUA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets/Script/Core/Effect/CameraShoke.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Token.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/PropertyDescriptor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/HotUpdatePathData.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/LoginGameController.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/Decryption/DESservice.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectFactories/LambdaObjectFactory.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/UnityIAP/PayUnityIAPImplement.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeResolvers/StaticTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/LongPressAcceptor/LongPressAcceptor.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/CharacterAnalyzer.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/AnimSystemWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/P4399Pay/P4399PayClass.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaUnityLibs.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions/NullNamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery/NetUtils.cs" />
+     <Compile Include="Assets/Script/GameStatus/HotUpdateStatus.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/PrePay2Client.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module/GoodsBuyNumOfTimeLimitInfo.cs" />
+     <Compile Include="Assets/Script/Core/Network/URLManager.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaDLL.cs" />
+     <Compile Include="Assets/Script/Core/Network/CallBackFunctions.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserRegister2Client.cs" />
+     <Compile Include="Assets/Script/GameStatus/DemoStatus.cs" />
+     <Compile Include="Assets/Script/Core/Network/Socket/KCP/switch_queue.cs" />
+     <Compile Include="Assets/Script/UI/heiheiheiWindow/heiheiheiWindow.cs" />
+     <Compile Include="Assets/Script/Core/Effect/FringeFade.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/FlowMappingEnd.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/MappingEnd.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors/ReadablePropertiesTypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message/GeneralShopBuyGoods2Server.cs" />
+     <Compile Include="Assets/Script/Core/Application/Boot/Define/ClassValue.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/RemoteInvoking/RemoteInvoking_SystemFunction.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters/TypeAssigningEventEmitter.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/GamePrepareFlowController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/BuilderSkeleton.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/DataTableWrap.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UIManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PaymentVerification/PaymentVerification/ResendMessageManager.cs" />
+     <Compile Include="Assets/Script/Core/Effect/EFXTool/EffectTool_Stop.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/SendSMS/SMSController.cs" />
+     <Compile Include="Assets/Script/Core/Develop/MemoryDetector.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnScrollEvent.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/JoyStick/UGUIJoyStick_BgMove.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaThread.cs" />
+     <Compile Include="Assets/Script/Core/MonoBehaviourManager/MonoBehaviourRuntime.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/YamlSerializableNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/GameObject/PoolObject.cs" />
+     <Compile Include="Assets/Script/Core/Develop/Log.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaMethodCache.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Report/StaticReportController.cs" />
+     <Compile Include="Assets/Script/Core/UI/Control/UISystemEvent.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/ObjectTranslator.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/NetWork/RequestRealNameState2Client.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Boot/TouchScreenBootConsole.cs" />
+     <Compile Include="Assets/Script/Core/UI/Control/UIAnimManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetClientManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/SelectServer/SelectNetworkController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/FlowEntry.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/EventType.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/NetworkManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson/PocoJsonSerializerStrategy.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioGroupSystem/AudioGroupSystem.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/PayInterface.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/LookAheadBuffer.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/MessageClass4Json/JsonMessageProcessingController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Helpers/Portability.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/AppInfo/Message/AppInfoData2Client.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/ResourcesConfigManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors/ReadableAndWritablePropertiesTypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/Utils/MD5Tool.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/TextTool/RandomString.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/IEmitter.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Report/ReportController.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserLogin2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Mark.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/JoyStick/UGUIJoyStick_hide.cs" />
+     <Compile Include="Assets/Script/Core/UI/Control/UIStackManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/LazyComponentRegistrationList.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaMisc.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/ResourceManager.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/vivoPay/vivoPayClass.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module/ShopGoodsInfoDetails.cs" />
+     <Compile Include="Assets/Script/Core/Application/Boot/GameBootConfig.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery/UDPDiscoverServer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions/PascalCaseNamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/StreamEnd.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery/DiscoveryPeerManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/Interface/SocketBase.cs" />
+     <Compile Include="Assets/Script/Core/Config/ConfigManager.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SimpleFlowManager.cs" />
+     <Compile Include="Assets/Script/Core/Effect/Render/ParticleLODService.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass/NullOtherSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/NetWork/RequestRealNameState2Server.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IPropertyDescriptor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/CustomServiceBase/CustomServiceBase.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_Vector3Wrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Client/NetClient.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/DocumentStart.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/NetworkStateWrap.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaStatePtr.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/DocumentEnd.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/JsonUtils.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UIEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetPlugins/StatisticalNetPlugin.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UIWindowBaseWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test/BroadcastTest.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_GraphicWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson/JsonObject.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Player/PlayerManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlVisitorBase.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputUILongPressEventWrap.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_TextWrap.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/RecordManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/SerializerBuilder.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/IP&amp;Geolocation/Scripts/IPGeolocationManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/AnchorAlias.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/SendSMS/Message/SendSMSData2Server.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/AnimDataWrap.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_RectTransformWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IAliasProvider.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/AccountMergeController.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/DefaultIAPImplement.cs" />
+     <Compile Include="Assets/Script/Core/Network/Interface/INetworkInterface.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Deserializer.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/Audio3DPlayer.cs" />
+     <Compile Include="Assets/Script/InputEvent/CustomEvent.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Client/Controller/ClientControllerManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Utils/UGUITool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/TagDirectiveCollection.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/RecordTableWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LoginSDKImplements/TouristLoginSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Announcement/AnnouncementConfirm2Server.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/MessageDispatcher/INoLoginMsg.cs" />
+     <Compile Include="Assets/Script/Core/Timer/Timer.cs" />
+     <Compile Include="Assets/Script/Core/Input/Interface/IInputOperationEventCreater.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/ReflectionUtility.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Comment.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/AccountMergeInfo2Client.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/ReusingScrollRectWrap.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/UI/UIWindowLuaHelper.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/TableExtends/DataTableExtend.cs" />
+     <Compile Include="Assets/Script/Core/Network/Protocol/ByteArray.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LogSDKImplements/ClientReportClass.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/URCModuleAdapter.cs" />
+     <Compile Include="Assets/Script/Core/Utils/MD5Utils.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/ReusingScrollRect/ReusingScrollItemBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/File/PathTool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/AnchorAlias.cs" />
+     <Compile Include="Assets/Script/Core/Utils/IOSKeychainPlugin/Crypto.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ValueDeserializers/AliasValueDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/Loader/AssetBundleLoader.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/CustomSerializationObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/SerializationOptions.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test/TestNetworkClient.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/AskUserUseActivationCode2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Parser.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/Telepathy/TelepathyTransport.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters/ChainedEventEmitter.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/LogInterface.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/OppoPay/OppoPayClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/AnchorAssigner.cs" />
+     <Compile Include="Assets/Script/Core/Network/MsgCompress/MsgCompressBase.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message/UpdateGeneralShopInfo2Client.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnMouseEvent.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Clipboard/ClipboardTest.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/JoyStick/UGUIJoyStick.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LoginSDKImplements/IOS/GameCenter/GameCenterLoginSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlNodeType.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Announcement/AnnouncementContent2Client.cs" />
+     <Compile Include="Assets/Script/Core/Config/ConfigTable.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors/TypeInspectorSkeleton.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/RequsetAreadyBindPlatform2Server.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/BlockSequenceStart.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/IInputEventBaseWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Emitter.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/DeviceUniqueIdentifier/DeviceUniqueIdentifierHandle.cs" />
+     <Compile Include="Assets/Script/Core/Effect/AnimSystem/AnimSystem.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/ObjectAnchorCollection.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Constants.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/JsonLuaHelperWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/YamlUtils.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraTool.cs" />
+     <Compile Include="Assets/Script/Core/Record/NewSaveRecord/SaveRecordManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserLogin2Server.cs" />
+     <Compile Include="Assets/Script/Core/Input/Interface/IInputDispatcher.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioGroupSystem/RandomLoopMusicData.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ITypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageComponent/LanguageComponent.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/LayerLuaHelper.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass/NullLogSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlAttributeOverridesInspector.cs" />
+     <Compile Include="Assets/Script/Core/Record/RecordTable.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/StringExtensions.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/System_Collections_Generic_Dictionary_string_stringWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery/RemoteTagetInfo.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_TransformWrap.cs" />
+     <Compile Include="Assets/Script/GameStatus/GameStatus_two.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaTable.cs" />
+     <Compile Include="Assets/Script/Core/Record/RecordManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/NullNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_DebugWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IYamlConvertible.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/EmptyUI/Empty4Raycast.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsManifestManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/ImageLoadComponent.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SystemInfo/SystemInfoManager.cs" />
+     <Compile Include="Assets/Script/Core/Application/ApplicationManager.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson/JsonObject.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/MemoryManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Scalar.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/TypeConverter.cs" />
+     <Compile Include="Assets/Script/Core/Timer/TimerEvent.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/ReusingScrollRect/ReusingScrollItemData.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioButtonClickComponent.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/PublicPayClass.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson/PocoJsonSerializerStrategy.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/System_Collections_Generic_Dictionary_string_objectWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PaymentVerification/PaymentVerificationInterface.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityPing/Scripts/UnityPingManager.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/ShareInterface.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass/NullRealNameInterface.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageDataUtils.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/AutoReconnectController.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Modules/URCSettingData.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputNetworkMessageEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/StoreBuyGoods2Server.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/FlowMappingStart.cs" />
+     <Compile Include="Assets/Script/UI/ShopWindow/ShopWindow.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/LuaBinder.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputNetworkConnectStatusEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/MessageClass4Json/MessageClassInterface.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/GameObjectLuaHelper.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Scripts/CameraShaker.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/GameInfoCollecter.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/FlowItems/SelectServerFlowItem.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers/TagNodeTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/AnchorAssigningObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioGroupSystem/RandomLoopSFXData.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraFade.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IValueSerializer.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/LoginInterface.cs" />
+     <Compile Include="Assets/Script/Core/UI/Extensions/Gradient.cs" />
+     <Compile Include="Assets/Script/Core/Input/InputEventProxy/InputUIEventProxy.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/VersionDirective.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/JoyStick/UGUIJoyStickBase.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LoginPlatform.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions/CamelCaseNamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message/GeneralShopTableDataComplete2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/ResourceIOTool.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/AssetsLoadController.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson/SimpleJson.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlDocument.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/IParser.cs" />
+     <Compile Include="Assets/Script/Core/Input/InputManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Utils/TextureScale.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/JsonLuaHelper.cs" />
+     <Compile Include="Assets/Script/Core/HotUpdate/HotUpdateManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Model/UIStyleComponent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/ChainedObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/HuaWeiPay/HuaWeiPayClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson/JsonArray.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageSettingConfig.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/SemanticErrorException.cs" />
+     <Compile Include="Assets/Script/Core/Effect/AnimSystem/AnimData.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/JsonNetworkService.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoadType.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioPlayManager.cs" />
+     <Compile Include="Assets/Script/UI/MainWindow/MainWindow.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Helpers/GenericDictionaryToNonGenericAdapter.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputUIOnClickEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IValueDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/IlifeCycleComponent.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module/GoodsBuyTimeLimitInfo.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Report/ClientReport2Server.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass/NullSDKInterface.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Clipboard/ClipboardManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Extensions/TextVirtical.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaManager.cs" />
+     <Compile Include="Assets/Script/Core/Data/DataGenerateManager.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/SimpleTCP/SimpleTCPTransport.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/ParserExtensions.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/BlockEnd.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/FlowItems/PreLoadResFlowItem.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/EnumerableNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/INodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/UI/UITextStyleManager/UITextStyleComponent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/AnchorNotFoundException.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test/TestNetworkServer.cs" />
+     <Compile Include="Assets/Script/UI/test01Window/test01Window.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Boot/BootFunctionBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlSequenceNode.cs" />
+     <Compile Include="Assets/Script/Core/Record/NewSaveRecord/IRecordConverter.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/SDKManager.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/Message/UseMethod2Server.cs" />
+     <Compile Include="Assets/Script/Core/Input/InputEventProxy/InputNetworkEventProxy.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/SendSMS/Message/ReplySendSMS2Client.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetPlugins/HeartBeatNetPlugin.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/PreloadManager/PreloadResourcesDataGenerate.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters/WriterEventEmitter.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Server/PlayerLoginHandlerBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson.Reflection/ReflectionUtils.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/SDKManagerNew.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/DeserializeObjectGraph.cs" />
+     <Compile Include="Assets/Script/Core/Utils/IniConfigTool.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUILongPressEvent.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_ColorWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Player/Player.cs" />
+     <Compile Include="Assets/Script/GameStatus/UItest.cs" />
+     <Compile Include="Assets/Script/Core/GuideSystem/GuideSystemBase.cs" />
+     <Compile Include="Assets/Script/Core/Input/Interface/IInputEventBase.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/RequsetAreadyBindPlatform2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Value.cs" />
+     <Compile Include="Assets/Script/Core/GuideSystem/GuideWindowBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/ReflectionUtils.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/SelectNetworkData.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/Helpers/TestOutputHelperExtensions.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/ReusingScrollRect/ReusingScrollRect.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message/GeneralShopTableData2Client.cs" />
+     <Compile Include="Assets/Script/Core/Develop/DevelopReplayManager.cs" />
+     <Compile Include="Assets/Script/UI/GameWindow/GameWindow.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Client/LoginController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/MappingStyle.cs" />
+     <Compile Include="Assets/Script/Core/Data/DataManager.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/DataManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/UI/UILuaEventCallBackHelper.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IObjectFactory.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/PreloadManager/PreloadManager.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/RealNameInterface.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/ArrayNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/OtherSDKInterface.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module/GameShopInfoData.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphTraversalStrategies/FullObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/Message/MethodData2Client.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InterpTypeWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/CustomServiceBase/Message/FunctionSwitch2Client.cs" />
+     <Compile Include="Assets/Script/UI/AAAWindow/AAAWindow.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson.Reflection/ReflectionUtils.cs" />
+     <Compile Include="Assets/Script/Core/PersistentFile/PersistentFileManager.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/GameEvent/CheckPayLimitEvent.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LoginSDKImplements/AccountLoginSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaAttributes.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Service/ServiceManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlNode.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/ParsingEvent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/MergingParser.cs" />
+     <Compile Include="Assets/Script/Core/Network/Module/KeyValueData.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ITypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PaymentVerification/PaymentVerificationManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Announcement/GameRewardData.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/MessageClass4Json/CodeMessageBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Client/Controller/ClientControllerBase.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/LoginSDKImplements/Android/Weixin/WXLoginSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Converters/DateTimeConverter.cs" />
+     <Compile Include="Assets/Script/Core/MonoBehaviourManager/MonoBehaviourExtend.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Login/SimplePlayerLoginHandler.cs" />
+     <Compile Include="Assets/Script/Core/Application/GlobalLogicManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Serializer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeResolvers/DynamicTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/UI/Extensions/AspectRatioFitterHelper.cs" />
+     <Compile Include="Assets/Script/Core/Network/Socket/KCP/KCP.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/IParsingEventVisitor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityPing/Demo/PingGUI.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/GameServerAreaData.cs" />
+     <Compile Include="Assets/Script/GameStatus/GameStatus.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/ObjectPool.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/ResLoadLocation.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnBeginDragEvent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/MiniJSON.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/GeneralGameShopController.cs" />
+     <Compile Include="Assets/Script/Core/UI/Extensions/TextPro.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Extends/StringExtends.cs" />
+     <Compile Include="Assets/Script/Core/Input/InputEventProxy/InputOperationEventProxy.cs" />
+     <Compile Include="Assets/Script/Core/Develop/FPSCounter.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EmissionPhaseObjectGraphVisitorArgs.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/YamlException.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/DocumentLoadingState.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/PrePay2Service.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlAliasNode.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/NetWork/InputNetworkEvent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/ZipUtils.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/DeserializerBuilder.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaState.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/TypeConverterNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Boot/ConsoleBootManager.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/SingleDataWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/NodeEvent.cs" />
+     <Compile Include="Assets/test.cs" />
+     <Compile Include="Assets/Script/Core/UI/Utils/LayerSort.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/RepeatTypeWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/AppInfo/AppInfoCollecter.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetPlugins/NetPluginBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Message/Logout2Server.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputUIEventBaseWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/ScalarStyle.cs" />
+     <Compile Include="Assets/Script/Core/Record/NewSaveRecord/YamlRecordConverter.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_InputWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/SequenceStyle.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/TextTool/CurvedText.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/MouseDownUp/MouseDownUp.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/Message/MethodData.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test/ClientStartController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters/JsonEventEmitter.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/ConfirmMergeExistAccount2Client.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/AssetsData.cs" />
+     <Compile Include="Assets/Script/Core/Application/IApplicationGlobalLogic.cs" />
+     <Compile Include="Assets/Script/Core/Record/NewSaveRecord/JsonRecordConverter.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_BehaviourWrap.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_ScrollRectWrap.cs" />
+     <Compile Include="Assets/Script/Core/Application/ApplicationStatusManager.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioAsset.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/CustomServiceBase/Message/FunctionSwitch2Server.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_ComponentWrap.cs" />
+     <Compile Include="Assets/Script/GuideSystem/GuideSyetem.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/AssetsUnloadHandler.cs" />
+     <Compile Include="Assets/Script/UI/test02Window/test02Window.cs" />
+     <Compile Include="Assets/Script/Core/Utils/File/FileUtils.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageComponent/LanguageFontComponent.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/ContinentCountryTableData.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/ScrollRectInputWrap.cs" />
+     <Compile Include="Assets/Script/DataClassGenerate/itemGenerate.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_ButtonWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlScalarNode.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/InsertionQueue.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/AccountMergeInfo2Server.cs" />
+     <Compile Include="Assets/Script/Core/Network/Socket/WsSocketService.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/Weixin/WXPayClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson/SimpleJson.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/JsonTool.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/Decryption/EncryptionService.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/Audio2DPlayer.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/RemeedCode/RemeedCodeUse2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/StreamStart.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlNodeIdentityEqualityComparer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/RecursionLevel.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlMappingNode.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/StreamStart.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/DocumentEnd.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlStream.cs" />
+     <Compile Include="Assets/Script/Core/Input/InputDispatcher.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Scripts/CameraShakeInstance.cs" />
+     <Compile Include="Assets/Script/Core/MonoBehaviourManager/MonoSingleton.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserLogout2Client.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/IAppPay/IAppPayClass.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_ImageWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers/TypeNameInTagNodeTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/SDKInterfaceBase.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message/GeneralShopBuyGoods2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Helpers/GenericCollectionToNonGenericAdapter.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/ParserState.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/LiteNetLib/LiteNetLibTransportEventListener.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson/IJsonSerializerStrategy.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/SequenceEnd.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnDragEvent.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test/ServerStartController.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/StringBytesConverter.cs" />
+     <Compile Include="Assets/Script/Core/Develop/GUIConsole.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/DefaultExclusiveObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/GlobalEvent/GlobalEvent.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Service/ServiceBase.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_Vector2Wrap.cs" />
+     <Compile Include="Assets/Script/Core/Develop/GUIUtil.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/EmitterState.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/System_Collections_Generic_List_stringWrap.cs" />
+     <Compile Include="Assets/Script/UI/testWindow/testWindow.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/YamlVisitor.cs" />
+     <Compile Include="Assets/Script/Core/Data/DataFieldAssetType.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Cursor.cs" />
+     <Compile Include="Assets/Script/Core/Develop/Attribute/ResourcesFieldAttribute.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions/UnderscoredNamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers/YamlConvertibleTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Message/Login2Client.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/ToLua.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/Helpers/ExampleRunner.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/StreamEnd.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/Loader/LoaderBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/AESUtils.cs" />
+     <Compile Include="Assets/Script/Core/Network/Protocol/ProtocolAttribute.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Extends/ExpandMethod.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/MemoryInfo/MemoryInfo.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/SelectSeverController.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/MappingStart.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IRegistrationLocationSelectionSyntax.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/LiteNetLib/LiteNetLibTransport.cs" />
+     <Compile Include="Assets/Script/Core/Application/Boot/AppModuleBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/RemoteInvokingService.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/System_Collections_Generic_Dictionary_string_SingleDataWrap.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/PayResult.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/SerializerState.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/TypeChecker.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/SelectServer/GetServerDefine.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventInfo.cs" />
+     <Compile Include="Assets/Script/Core/UI/Utils/UIModelShowTool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/StringLookAheadBuffer.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageManager.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnEndDragEvent.cs" />
+     <Compile Include="Assets/Script/Core/UI/Control/UILayerManager.cs" />
+     <Compile Include="Assets/Script/GameStatus/LuaTestStstus.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_SelectableWrap.cs" />
+     <Compile Include="Assets/Script/Core/Data/DataTable.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/EmittingObjectGraphVisitor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem/Message/ClearLog2Server.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Tag.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/MD5Tools.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserRegister2Server.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Message/Logout2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/SequenceStart.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TagMappings.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IYamlSerializable.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/StreamFragment.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers/YamlSerializableTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/Develop/GameDataBase/GameDataMonitor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityPing/Scripts/UnityPing.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlFormatter.cs" />
+     <Compile Include="Assets/Script/GameStatus/FirstStatus.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/ILookAheadBuffer.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Scripts/CameraShakerManager.cs" />
+     <Compile Include="Assets/Script/Core/UI/Utils/ModelRotate.cs" />
+     <Compile Include="Assets/Script/Core/MonoBehaviourManager/MonoBehaviourManager.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/RemeedCode/RemeedCodeController.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputUIOnScrollEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors/PreProcessingPhaseObjectGraphVisitorSkeleton.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PaymentVerification/PaymentVerification/NetworkVerificationImplement.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/System_Collections_Generic_Dictionary_string_SingleFieldWrap.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Model/LoginConfigData.cs" />
+     <Compile Include="Assets/Script/Core/Input/RandomService.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetPlugins/MessageDispatcherNetPlugin.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/TextTool/MaskWordMakeTool.cs" />
+     <Compile Include="Assets/Script/Core/GameObject/GameObjectTool.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioPlayerBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/YamlConvertibleNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/Network/Protocol/ProtocolService.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaStatic.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Message/Login2Server.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem/Message/LogData2Client.cs" />
+     <Compile Include="Assets/Script/Core/Lua/LuaHelper/UI/UIManagerLuaHelper.cs" />
+     <Compile Include="Assets/Script/Core/Utils/HTTPTool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Scanner.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Demo/Sample Scripts/ShakeOnTrigger.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/SingleFieldWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJsonUtils.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/IInputOperationEventBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/CollectionNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IEventEmitter.cs" />
+     <Compile Include="Assets/Script/Test/RuntimeTest.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Anchor.cs" />
+     <Compile Include="Assets/Script/Core/Utils/UnityWebRequestTool.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/StoreBuyGoods2Client.cs" />
+     <Compile Include="Assets/Script/Core/Network/Interface/HeartBeatBase.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_ScreenWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/FlowSequenceEnd.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers/DefaultContainersNodeTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectFactories/DefaultObjectFactory.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ValueDeserializers/NodeValueDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/SerializeObjectGraph.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/StoreName.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/RemoteInvokingAttribute.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UIWindowLuaHelperWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/ConsolePanelFunction_Interaction.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlMember.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors/CachedTypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/HashCode.cs" />
+     <Compile Include="Assets/Script/Core/ResourceLoad/AssetsLoad/Loader/ResourcesLoader.cs" />
+     <Compile Include="Assets/Script/Core/UI/UITextStyleManager/UITextStyleManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlAttributeOverrides.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/Scalar.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/DocumentStart.cs" />
+     <Compile Include="Assets/Script/Core/Audio/AudioManager/AudioGroupSystem/AudioGroupData.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/SDKInterfaceDefine.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/DelegateFactory.cs" />
+     <Compile Include="Assets/Script/Core/Utils/IOSKeychainPlugin/Keychain.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/UnityIAP/IAPStoreListener.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphTraversalStrategies/RoundtripObjectGraphTraversalStrategy.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/NetServer.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaException.cs" />
+     <Compile Include="Assets/Script/Core/UI/Model/UIWindowBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/INamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/AppInfo/AppInfoService.cs" />
+     <Compile Include="Assets/Script/Core/Network/Json/Decryption/RSAService.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetPlugins/PingNetPlugin.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Scripts/Utilities/CameraUtilities.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/Interface/ADInterface.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlIgnoreAttribute.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UIBaseWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/GameEvent/CheckPayLimitResultEvent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/Key.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/DragAcceptor/DragAcceptor.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/ServerVersionInfo.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/BlockMappingStart.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/ReusingScrollRect/ScrollRectInput.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IYamlTypeConverter.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IValuePromise.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_GameObjectWrap.cs" />
+     <Compile Include="Assets/Script/Core/UI/Control/UIManager.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Server/LoginService.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Helpers/ITestOutputHelper.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Demo/ShakeDemo.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_EventSystems_UIBehaviourWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson/IJsonSerializerStrategy.cs" />
+     <Compile Include="Assets/Script/Core/Language/LanguageComponent/FontChooserComponent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/DeserializingMultipleDocuments.cs" />
+     <Compile Include="Assets/Script/UI/testWindow/ItemTest.cs" />
+     <Compile Include="Assets/Script/Core/UI/Extensions/HoleImage.cs" />
+     <Compile Include="Assets/Script/UI/GuideWindow/GuideWindow.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass/NullADSSDKClass.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/ConvertYamlToJson.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Boot/KeyboardBootConsole.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/TextTool/MaskWord.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/BlockEntry.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/ScalarNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Version.cs" />
+     <Compile Include="Assets/Script/Core/Network/MsgCompress/MsgCompressGzip.cs" />
+     <Compile Include="Assets/Script/Core/Utils/EditorTool.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/RemeedCode/RemeedCodeUse2Server.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/InputUIEventTypeWrap.cs" />
+     <Compile Include="Assets/Script/Core/Develop/LogOutPutThread.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson/JsonArray.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/GuideHeightLightComponent.cs" />
+     <Compile Include="Assets/Script/Core/Application/IApplicationStatus.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/Helpers/SampleAttribute.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/GameEvent/TeenagerHealthyEvent.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/LazyComponentRegistrationListExtensions.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/GameObjectManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/Application/Boot/Define/BaseValue.cs" />
+     <Compile Include="Assets/Script/Core/Effect/Render/RenderManager.cs" />
+     <Compile Include="Assets/Script/Core/Input/Interface/InputUIEventBase.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/MaximumRecursionLevelReachedException.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_MonoBehaviourWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/DictionaryNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UISystemEventWrap.cs" />
+     <Compile Include="Assets/Script/Core/Data/ParseTool.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/UCPay/UCPayClass.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Demo/Sample Scripts/ShakeByDistance.cs" />
+     <Compile Include="Assets/Script/Core/Utils/File/FileTool.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/FlowItems/HotupdateFlowItem.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Demo/Sample Scripts/ShakeOnKeyPress.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/SimpleKey.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/FakeList.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Announcement/AnnouncementController.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/JoyStick/UGUIJoyStick_Ro.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/SimpleFlow/FlowItems/DownloadRegionServerListFlowItem.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_Vector4Wrap.cs" />
+     <Compile Include="Assets/Script/Core/Effect/CameraShaker/Scripts/CameraShakePresets.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Model/User.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions/HyphenatedNamingConvention.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/IScanner.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/YamlAttributesTypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaBaseRef.cs" />
+     <Compile Include="Assets/Script/Core/Utils/ByteTool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectDescriptor.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel/IYamlVisitor.cs" />
+     <Compile Include="Assets/Script/Core/Utils/HeapObjectPool.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers/ObjectNodeDeserializer.cs" />
+     <Compile Include="Assets/Script/UI/ShopWindow/ShopWindowItem.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Login/Message/UserLogout2Server.cs" />
+     <Compile Include="Assets/Script/Core/Lua/ToLua/Core/LuaFunction.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/MessageDispatcher/MessageDispatcher.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/SyntaxErrorException.cs" />
+     <Compile Include="Assets/Script/Core/GameObject/GameObjectManager.cs" />
+     <Compile Include="Assets/Script/UI/TestWindowWindow/TestWindowWindow.cs" />
+     <Compile Include="Assets/Script/Core/Network/Socket/SocketService.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message/ConfirmMergeExistAccount2Server.cs" />
+     <Compile Include="Assets/Script/Core/Network/Protocol/ProtocolNetworkService.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/ErrorCodeDefine.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events/Comment.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/RealName/RealNameManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/INodeTypeResolver.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/IObjectDescriptor.cs" />
+     <Compile Include="Assets/Script/Core/Input/Interface/IInputProxyBase.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/UnityEngine_UI_MaskableGraphicWrap.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Helpers/ExpressionExtensions.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Examples/LoadingAYamlStream.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem/LogService.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/AudioPlayManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery/UDPDiscoverClient.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/EmitterState.cs" />
+     <Compile Include="Assets/Script/Core/Input/Events/UI/InputUIOnClickEvent.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/ConfigManagerWrap.cs" />
+     <Compile Include="Assets/Script/Core/UI/Components/DragUI/DragUIInput.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Json/DeJson.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/Pay/StorePayController.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module/GoodsDiscountInfo.cs" />
+     <Compile Include="Assets/Script/SDK/GoogleLogin.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/ForwardAnchorNotSupportedException.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/URCServerStarter.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Converters/GuidConverter.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/Message/UseMethod2Client.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters/CustomTagEventEmitter.cs" />
+     <Compile Include="Assets/Script/Core/Network/Socket/KCP/KCPService.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Nothing.cs" />
+     <Compile Include="Assets/Script/Core/UI/Model/UIBase.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem/Message/LogData.cs" />
+     <Compile Include="Assets/Script/Core/PluginTools/IP&amp;Geolocation/Demo/TestIP.cs" />
+     <Compile Include="Assets/Script/Core/Network/NetworkManager.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/FlowSequenceStart.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities/IPostDeserializationCallback.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens/TagDirective.cs" />
+     <Compile Include="Assets/Script/LuaGenerate/LuaInterface_DebuggerWrap.cs" />
+     <Compile Include="Assets/Script/Core/SDKManager/PayImplements/Android/Weixin/PayReSend.cs" />
+     <Compile Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors/NamingConventionTypeInspector.cs" />
+     <Compile Include="Assets/Script/Core/Utils/File/PathUtils.cs" />
+     <Compile Include="Assets/Script/Core/Utils/Extends/EditorExtendAttributes.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets/Script/DataClassGenerate" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Pay" />
+     <Folder Include="Assets/Script/UI/ShopWindow" />
+     <Folder Include="Assets/Script/Core/Develop/GameDataBase" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements/IOS" />
+     <Folder Include="Assets/Script/GameStatus" />
+     <None Include="Assets/Resources/Config/HotUpdateConfig.json" />
+     <Folder Include="Assets/Script/Core/UI/Components/DragUI" />
+     <None Include="Assets/Resources/Lua/LuaMain.txt" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Message" />
+     <Folder Include="Assets/doc/Xmind" />
+     <Folder Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson" />
+     <Folder Include="Assets/Script/Core/Utils/IOSKeychainPlugin" />
+     <None Include="Assets/Resources/Config/qeqweqwe.json" />
+     <Folder Include="Assets/Script/Core/Input/InputEventProxy" />
+     <Folder Include="Assets/Script/Core/Utils/Json/SimpleJson/SimpleJson.Reflection" />
+     <Folder Include="Assets/Script/Core/Input/Events" />
+     <Folder Include="Assets/Resources/UI/testWindow" />
+     <Folder Include="Assets/doc" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/MessageDispatcher" />
+     <Folder Include="Assets/Script/Core" />
+     <Folder Include="Assets/Script/UI/test02Window" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet" />
+     <None Include="Assets/Resources/Version.json" />
+     <Folder Include="Assets/Resources/UI/test02Window" />
+     <Folder Include="Assets/Script/Core/ResourceLoad" />
+     <None Include="Assets/Resources/Data/testData.txt" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/iOS" />
+     <Folder Include="Assets/Script/Core/GlobalEvent" />
+     <Folder Include="Assets/Script/UI/testWindow" />
+     <Folder Include="Assets/Script/GuideSystem" />
+     <Folder Include="Assets/Script/Core/Effect/AnimSystem" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem/Message" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Server" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/LuaFrameWorkEventName.txt" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements/IOS/GameCenter" />
+     <Folder Include="Assets/Script/Core/SDKManager/RealName/NetWork" />
+     <Folder Include="Assets/Resources/UI/ShopWindow" />
+     <Folder Include="Assets/Resources/Prefab" />
+     <Folder Include="Assets/Script/Core/SDKManager/RealName" />
+     <Folder Include="Assets/Script/Core/MonoBehaviourManager" />
+     <None Include="Assets/Resources/Config/111.json" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController/Module" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/CustomServiceBase" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/UnityIAP" />
+     <Folder Include="Assets/Script/Core/SDKManager/RealName/GameEvent" />
+     <Folder Include="Assets/Script/UI/GameWindow" />
+     <Folder Include="Assets/Script/Core/PluginTools" />
+     <Folder Include="Assets/Script/Core/Effect/Render" />
+     <Folder Include="Assets/Script/Core/UI/Components/ReusingScrollRect" />
+     <Folder Include="Assets/Script/UI/GuideWindow" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Login/Message" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/Android" />
+     <Folder Include="Assets/Script/Core/Application/Boot" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker/Demo/Sample Scripts" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/CustomServiceBase/Message" />
+     <Folder Include="Assets/Script/Core/ResourceLoad/PreloadManager" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android" />
+     <None Include="Assets/Script/Core/Utils/IOSKeychainPlugin/说明.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson" />
+     <Folder Include="Assets/EditorConfig" />
+     <None Include="Assets/Resources/LuaLib/LuaStringHelper.txt" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/x86_64" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/SendSMS" />
+     <Folder Include="Assets/Script/Core/Network/Socket/KCP" />
+     <Folder Include="Assets/Script/LuaGenerate" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/UI/LuaUIWindowMetatable.txt" />
+     <Folder Include="Assets/Script/Core/Network/Json/Decryption" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/AppInfo" />
+     <Folder Include="Assets/Script/Core/Timer" />
+     <None Include="Assets/doc/Lua使用规则.txt" />
+     <Folder Include="Assets/Script/Core/Network/Socket" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson.Reflection" />
+     <Folder Include="Assets/Script/Core/Utils/Json" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/DeviceUniqueIdentifier" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/Android/libs/x86" />
+     <Folder Include="Assets/Script/Core/PluginTools/IP&amp;Geolocation/Demo" />
+     <Folder Include="Assets/Script/Core/SDKManager/RealNameSDKImplements" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Service" />
+     <None Include="Assets/Resources/Data/Language/LangData_Afrikaans.txt" />
+     <Folder Include="Assets/Script/Test" />
+     <Folder Include="Assets/Script/Core/UI/Components/DragAcceptor" />
+     <Folder Include="Assets/EditorTemplateRes" />
+     <Folder Include="Assets/Resources/sprite" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker" />
+     <Folder Include="Assets/Script/Core/SDKManager" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/Android/libs/armeabi-v7a" />
+     <None Include="Assets/Script/Core/ResourceLoad/PreloadManager/res/PreloadResourcesData.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer" />
+     <Folder Include="Assets/Script/Core/UI" />
+     <Folder Include="Assets/Script/Core/Input/Events/NetWork" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/Android/libs" />
+     <None Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Res/SelectNetworkData.txt" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/Status/LuaStatusMetaTable.txt" />
+     <Folder Include="Assets/Resources/UI/AAAWindow" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Announcement" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Core" />
+     <Folder Include="Assets/Script/Core/GuideSystem" />
+     <None Include="Assets/Resources/Data/Language/LangData_ChineseSimplified.txt" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/P4399Pay" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphTraversalStrategies" />
+     <Folder Include="Assets/Script/Core/UI/Utils" />
+     <Folder Include="Assets/Script/Core/UI/Components/LongPressAcceptor" />
+     <Folder Include="Assets/Script/Core/GameObject" />
+     <Folder Include="Assets/Script/Core/Language/LanguageComponent" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ValueDeserializers" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Login" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/UDPDiscovery" />
+     <Folder Include="Assets/Script/InputEvent" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Examples" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/RemoteInvoking/Message" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeInspectors" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/IAppPay" />
+     <Folder Include="Assets/Resources/Data/Language" />
+     <Folder Include="Assets/Script/Core/Network/Json" />
+     <Folder Include="Assets/Script/Core/SDKManager/LogSDKImplements" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Message" />
+     <Folder Include="Assets/Resources/UI/test01Window" />
+     <Folder Include="Assets/Resources/LuaLib/FrameWork/UI" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins" />
+     <Folder Include="Assets/Script/Core/SDKManager/PaymentVerification/PaymentVerification" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectFactories" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json" />
+     <Folder Include="Assets/Script/Core/Utils/IOSKeychainPlugin/Plugins" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/HuaWeiPay" />
+     <Folder Include="Assets/Resources/Data" />
+     <Folder Include="Assets/Script/Core/Input/Interface" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements/Android" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements/PC" />
+     <Folder Include="Assets/Script/Core/SDKManager/NullSDKInterfaceClass" />
+     <Folder Include="Assets/Script/Core/Record" />
+     <Folder Include="Assets/Script/Core/UI/Extensions" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/Test" />
+     <None Include="Assets/Resources/LuaLib/Unity/LuaUnityDefine.txt" />
+     <Folder Include="Assets/Script/Core/Config" />
+     <Folder Include="Assets/Script/UI/TestWindowWindow" />
+     <None Include="Assets/Resources/LuaLib/LuaFormatTools.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/MemoryInfo/iOS" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/DeviceUniqueIdentifier/iOS" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NamingConventions" />
+     <Folder Include="Assets/Script/Core/Network/MsgCompress" />
+     <Folder Include="Assets/Script/Core/Effect/EFXTool" />
+     <Folder Include="Assets/Script/Core/Utils/File" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Client" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityPing" />
+     <Folder Include="Assets/Script/Core/Network" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Examples/Helpers" />
+     <Folder Include="Assets/Script/Core/Lua/LuaHelper" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/Status/LuaStatusManager.txt" />
+     <None Include="Assets/Resources/LuaLib/luaJson.txt" />
+     <Folder Include="Assets/Resources/LuaLib/FrameWork" />
+     <Folder Include="Assets/Script/Core/Network/NetPlugins" />
+     <Folder Include="Assets/Script/Core/PluginTools/SimpleFlow/FlowItems" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Converters" />
+     <Folder Include="Assets/Script/Core/Input/Events/UI" />
+     <Folder Include="Assets/Script/Core/Develop/Attribute" />
+     <Folder Include="Assets/Resources/UI/TestWindowWindow" />
+     <Folder Include="Assets/Script/Core/Lua/LuaHelper/UI" />
+     <None Include="Assets/Resources/LuaLib/LuaPrintTable.txt" />
+     <None Include="Assets/EditorConfig/UIStyleConfigData.json" />
+     <None Include="Assets/Resources/Config/ResourcesConfig.json" />
+     <Folder Include="Assets/Script/Core/UI/Components" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/RemeedCode" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/Utilities" />
+     <Folder Include="Assets/Script/Core/PluginTools/IP&amp;Geolocation/Scripts" />
+     <None Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Res/HotUpdatePathData.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/AppInfo/Message" />
+     <Folder Include="Assets/Resources/UI/LuaTestWindow" />
+     <Folder Include="Assets/Script/Core/PluginTools/SimpleFlow" />
+     <Folder Include="Assets/Resources/Config" />
+     <None Include="Assets/Resources/Config/BundleConfig.json" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/LiteNetLib" />
+     <None Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/ContinentCountryTable description.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Utils/Json/SimpleJson/SimpleJson" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/TypeResolvers" />
+     <Folder Include="Assets/Script/Core/Audio/AudioManager" />
+     <None Include="Assets/Script/Core/Utils/YamlDotNet/Readme.txt" />
+     <Folder Include="Assets/Script/Core/UI/UITextStyleManager" />
+     <Folder Include="Assets/Script/Core/Effect" />
+     <Folder Include="Assets/Script/Core/Network/Interface" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo" />
+     <Folder Include="Assets/Script/UI/MainWindow" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker/Scripts" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Modules" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server" />
+     <None Include="Assets/Resources/Data/item.txt" />
+     <Folder Include="Assets/Script/Core/Application" />
+     <Folder Include="Assets/Resources/LuaLib/FrameWork/Update" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/LogSystem" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins" />
+     <Folder Include="Assets/Script/Core/UI/Components/TextTool" />
+     <Folder Include="Assets/Script/SDK" />
+     <Folder Include="Assets/Resources/LuaLib/Unity" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker/Docs" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/EventEmitters" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/AccountMerge/Message" />
+     <None Include="Assets/Resources/LuaLib/LuaEventDispatcher.txt" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/Data/LuaDataHelper.txt" />
+     <None Include="Assets/Resources/Config/LuaConfig.json" />
+     <None Include="Assets/Resources/Config/SDKConfig.json" />
+     <Folder Include="Assets/Script/Core/UI/Components/EmptyUI" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeDeserializers" />
+     <Folder Include="Assets/Script/Core/Audio" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityPing/Demo" />
+     <Folder Include="Assets/Script/Core/Network/Module" />
+     <Folder Include="Assets/Script/Core/SDKManager/Interface" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Helpers" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Login/res" />
+     <Folder Include="Assets/Script/Core/SDKManager/Clipboard/Plugins/Android" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/Telepathy" />
+     <Folder Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Res" />
+     <Folder Include="Assets/Script/Core/PluginTools/SystemInfo/Plugins/MemoryInfo" />
+     <Folder Include="Assets/Script/Core/SDKManager/Clipboard/Plugins" />
+     <None Include="Assets/Resources/ResourcesManifest.txt" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/OppoPay" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/SendSMS/Message" />
+     <Folder Include="Assets/Script/Core/Utils/Extends" />
+     <Folder Include="Assets/Scene" />
+     <None Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Resources/ContinentCountryTable.txt" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/UCPay" />
+     <Folder Include="Assets/Script/Core/SDKManager/Clipboard/Plugins/IOS" />
+     <Folder Include="Assets/Script/Core/Lua" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Login/Model" />
+     <Folder Include="Assets/Resources/UI/GuideWindow" />
+     <Folder Include="Assets/Resources/Lua" />
+     <Folder Include="Assets/Script/Core/SDKManager/PaymentVerification" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Core" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/Update/LuaUpdate.txt" />
+     <Folder Include="Assets/Script/UI/test01Window" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Boot" />
+     <Folder Include="Assets/Script/Core/PluginTools/TableExtends" />
+     <Folder Include="Assets/Script/Core/Data" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityPing/Scripts" />
+     <Folder Include="Assets/Script" />
+     <Folder Include="Assets/Script/Core/ResourceLoad/AssetsLoad" />
+     <None Include="Assets/Resources/Data/Language/LangData_Arabic.txt" />
+     <Folder Include="Assets/Script/Core/SDKManager/Clipboard" />
+     <Folder Include="Assets/Resources" />
+     <Folder Include="Assets/Resources/LuaLib/FrameWork/Status" />
+     <Folder Include="Assets/Script/Core/Utils/Json/SimpleJson" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/Android/libs/arm64-v8a" />
+     <Folder Include="Assets/Resources/UI/MainWindow" />
+     <Folder Include="Assets/Script/Core/Utils/IOSKeychainPlugin/Plugins/iOS" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/ObjectGraphVisitors" />
+     <None Include="Assets/EditorConfig/SDKEditorConfig.json" />
+     <Folder Include="Assets/Script/Core/UI/Control" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService" />
+     <Folder Include="Assets/Script/Core/Record/NewSaveRecord" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Serialization/NodeTypeResolvers" />
+     <Folder Include="Assets/Script/Core/ResourceLoad/AssetsLoad/Loader" />
+     <Folder Include="Assets/Script/Core/UI/Components/MouseDownUp" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements" />
+     <Folder Include="Assets/Script/Core/UI/Components/JoyStick" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Core/Events" />
+     <Folder Include="Assets/Script/Core/HotUpdate" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/RemoteInvoking" />
+     <Folder Include="Assets/doc/Xmind/Export" />
+     <None Include="Assets/Script/Core/Network/NetworkService/Login/res/LoginConfigData.txt" />
+     <Folder Include="Assets/Script/Core/Utils" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole" />
+     <None Include="Assets/Resources/LuaLib/FrameWork/UI/LuaUIManager.txt" />
+     <Folder Include="Assets/Script/Core/Input" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/SelectServer" />
+     <None Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Res/GameServerAreaData.txt" />
+     <Folder Include="Assets/Script/Core/SDKManager/LoginSDKImplements/Android/Weixin" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/Weixin" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/SimpleTCP" />
+     <Folder Include="Assets/Script/Core/PluginTools/IP&amp;Geolocation" />
+     <Folder Include="Assets/Script/Core/Develop" />
+     <Folder Include="Assets/Script/UI" />
+     <Folder Include="Assets/Script/UI/AAAWindow" />
+     <Folder Include="Assets/Script/Core/PersistentFile" />
+     <Folder Include="Assets/Script/Core/Audio/AudioManager/AudioGroupSystem" />
+     <Folder Include="Assets/Script/Core/Application/Boot/Define" />
+     <None Include="Assets/Script/Core/Utils/YamlDotNet/YamlDotNet.license.txt" />
+     <Folder Include="Assets/Script/Core/ResourceLoad/PreloadManager/res" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Modules/LogSystem" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/Core/Tokens" />
+     <Folder Include="Assets/Script/Core/UI/Style" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service" />
+     <Folder Include="Assets/Script/Core/SDKManager/PayImplements/Android/vivoPay" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Extends/Login" />
+     <Folder Include="Assets/Script/Core/Language" />
+     <None Include="Assets/EditorConfig/BundleConfigEditor.json" />
+     <Folder Include="Assets/Script/Core/PluginTools/SimpleFlow/SelectServer/Resources" />
+     <Folder Include="Assets/Script/Core/Network/Protocol" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker/Demo" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/Report" />
+     <Folder Include="Assets/Script/Core/Effect/CameraShaker/Scripts/Utilities" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Service/Login/Client" />
+     <Folder Include="Assets/Script/Core/Utils/YamlDotNet/RepresentationModel" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/AccountMerge" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Client/Controller" />
+     <Folder Include="Assets/Script/Core/Lua/ToLua/Plugins/x86" />
+     <Folder Include="Assets/Resources/UI" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/NetFramework/Server/Player" />
+     <Folder Include="Assets/Resources/LuaLib/FrameWork/Data" />
+     <Folder Include="Assets/Script/UI/heiheiheiWindow" />
+     <Folder Include="Assets/Script/Core/UI/Model" />
+     <Folder Include="Assets/Resources/UI/GameWindow" />
+     <Folder Include="Assets/Script/Core/Network/Json/MessageClass4Json" />
+     <None Include="Assets/Resources/Data/GuideData.txt" />
+     <Folder Include="Assets/Resources/LuaLib" />
+     <Folder Include="Assets/Resources/UI/Test2Window" />
+     <Folder Include="Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/Service/AppInfo" />
+     <Folder Include="Assets/Script/Core/Network/NetworkService/GeneralGameShopController" />
+     <Reference Include="UnityEngine">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AutoStreamingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AutoStreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CloudFoundationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudFoundationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIWidgetsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIWidgetsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Debugger">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Assets/Script/Core/Lua/ToLua/Plugins/Debugger.dll</HintPath>
+     </Reference>
+     <Reference Include="CString">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Assets/Script/Core/Lua/ToLua/Plugins/CString.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>/Applications/Unity/Hub/Editor/2020.3.48f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/zengqiyuan/TS/MyUnityFrameWork/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LiteNetLibManagerPlugins.csproj">
+      <Project>{0b4f1fdf-4c64-e2bb-5db1-a3bad566a255}</Project>
+      <Name>LiteNetLibManagerPlugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{fdacb13b-ada7-d155-070d-caea57bd124f}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleTCP.csproj">
+      <Project>{0f2efbb5-8686-2d28-ce84-29611bbb0862}</Project>
+      <Name>SimpleTCP</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleNetCore.csproj">
+      <Project>{d6aaec9e-f58a-b287-bd85-c74c1ad6536d}</Project>
+      <Name>SimpleNetCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

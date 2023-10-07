@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = LiteNetLib
+build_property.ProjectDir = /Users/zengqiyuan/TS/MyUnityFrameWork/Assets/Script/Core/PluginTools/UnityRemoteConsole/Server/NetworkCore/TransportPlugin/LiteNetLib/LiteNetLib/
