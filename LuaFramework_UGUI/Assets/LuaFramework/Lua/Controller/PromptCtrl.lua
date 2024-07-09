@@ -62,7 +62,7 @@ function PromptCtrl.OnItemClick(go)
 end
 
 --单击事件--
-function PromptCtrl.OnClick(go)
+function PromptCtrl.OnClick(go)  
 	if TestProtoType == ProtocalType.BINARY then
 		this.TestSendBinary();
 	end
@@ -75,7 +75,7 @@ function PromptCtrl.OnClick(go)
 	if TestProtoType == ProtocalType.SPROTO then
 		this.TestSendSproto();
 	end
-	logWarn("OnClick---->>>"..go.name);
+	--logWarn("OnClick---->>>"..go.name);
 end
 
 --测试发送SPROTO--
