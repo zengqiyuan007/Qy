@@ -33,7 +33,7 @@ function createPanel(name)
 end
 
 function child(str)
-	return transform:FindChild(str);
+	return transform:Find(str);
 end
 
 function subGet(childNode, typeName)		

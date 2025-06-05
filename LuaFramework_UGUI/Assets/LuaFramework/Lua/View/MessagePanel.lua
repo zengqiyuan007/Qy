@@ -15,7 +15,7 @@ end
 
 --初始化面板--
 function MessagePanel.InitPanel()
-	this.btnClose = transform:FindChild("Button").gameObject;
+	this.btnClose = transform:Find("Button").gameObject;
 end
 
 --单击事件--
