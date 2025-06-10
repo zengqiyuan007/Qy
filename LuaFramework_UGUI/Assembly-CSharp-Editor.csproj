@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_System_Object.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_System_Type.cs" />
+    <Compile Include="Assets/Scripts/Editor/HierarchyEditor.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_LuaInterface_EventObject.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_UnityEngine_Input.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_LuaInterface_LuaMethod.cs" />
@@ -86,7 +87,6 @@
     <Compile Include="Assets/LuaFramework/Editor/CustomSettings.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Editor/Extend/ToLua_LuaInterface_LuaConstructor.cs" />
     <Compile Include="Assets/LuaFramework/ToLua/Injection/Editor/ToLuaInjection.cs" />
-    <Compile Include="Assets/Scripts/Editor/HierarchyEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -57,4 +57,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/LuaFramework/Examples/Builds/Message/MessagePanel.prefab
 Dependencies:
-- /Users/zengqiyuan/TS/LuaFramework_UGUI/Assets/StreamingAssets/shared_asset.unity3d
+- /Users/zengqiyuan/TS/Qy/LuaFramework_UGUI/Assets/StreamingAssets/shared_asset.unity3d
